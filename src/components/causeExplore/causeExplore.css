@@ -1,0 +1,215 @@
+.CauseExploreMainSec{
+    background:white;
+    width:100%;
+    padding:4rem 0rem 3rem 0rem;
+}
+
+.CauseExploreMainDiv{
+    width:85%;
+    margin:0rem auto 0rem;
+}
+
+.OurActivitiesTittle{
+    font-size:1.3rem;
+    color:#3EB489;
+}
+
+.OurActivityIntroDiv{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    align-items: center;
+    margin-top:1.5rem;
+}
+
+.ExploreTittleActy{
+    font-size:2.5rem;
+    padding-top:0;
+    margin-top:0;
+}
+
+.ExploreActivityDesc{
+    font-size:1.1rem;
+    max-width:50%;
+}
+
+.AllCausesDivAtActBtn button{
+    border:none;
+    border-radius:1rem;
+    padding:0.6rem 2rem;
+    font-size:1rem;
+    cursor:pointer;
+    background-color: #00753d;
+    color:white;
+    font-style: italic;
+}
+
+.FewActivitiesInTheirMainDiv{
+    margin-top:3.5rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:40rem;
+}
+
+.EachActivitiesInTheirDiv{
+    width:33.6rem;
+    height:100%;
+    position:relative;
+} 
+
+.CauseHomeOverlay{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:linear-gradient(to top,#3EB489,rgba(0, 0, 0, 0));
+}
+
+.EachActivitiesInTheirDiv img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.EachActivitiesTextMainDiv{
+    position:absolute;
+    bottom:0;
+    left:0;
+    max-width:80%;
+    margin-left:0.4rem;
+    margin-bottom:1rem;
+}
+
+#EachActivityMainTittle{
+    font-size:2.5rem;
+    color:white;
+    font-style: italic;;
+}
+
+#EachActivityMainDesc{
+    font-size:1rem;
+    color:black;
+}
+
+
+@media screen and (max-width:1615px){
+    .CauseExploreMainSec{
+        padding:3rem 0rem 2rem 0rem;
+    }
+    .CauseExploreMainDiv{
+        width:98%;
+    }
+    .OurActivityIntroDiv{
+        margin-top:1rem;
+    }
+    .FewActivitiesInTheirMainDiv{
+        margin-top:3rem;
+    }
+    
+}
+
+@media screen and (max-width:1222px){
+    .EachActivitiesTextMainDiv{
+        max-width:96%;
+    }
+    #EachActivityMainTittle{
+        font-size:2rem;
+    }
+}
+
+@media screen and (max-width:1195px){
+    .OurActivitiesTittle{
+        font-size:1rem;
+    }
+    .OurActivityIntroDiv{
+        flex-direction:column;
+        row-gap:0.8rem;
+    }
+    .ExploreActivityDesc{
+        text-align: center;
+        max-width:70%;
+    }
+}
+
+@media screen and (max-width: 943px) {
+    .EachActivitiesInTheirDiv:last-child{
+        display:none;
+    }
+}
+
+@media screen and (max-width:937px){
+    .OurActivityIntroDiv{
+        row-gap:0.4rem;
+    }
+    .ExploreActivityDesc{
+        max-width:75%;
+    }
+}
+
+@media screen and (max-width:870px){
+    .ExploreActivityDesc{
+        max-width:83%;
+    }
+}
+
+@media screen and (max-width:791px){
+    .ExploreActivityDesc{
+        max-width:94%;
+    }
+}
+
+@media screen and (max-width:698px){
+    .ExploreActivityDesc{
+        max-width:100%;
+    }
+}
+
+@media screen and (max-width:575px){
+    .CauseExploreMainSec{
+        padding:2rem 0rem 2rem 0rem;
+    }
+
+    .OurActivitiesTittle{
+        font-size:0.9rem;
+    }
+    .OurActivityIntroDiv{
+        row-gap:0.2rem;
+    }
+    .ExploreTittleActy{
+        font-size:1.8rem;
+    }
+    .ExploreActivityDesc{
+        font-size:1rem;
+        max-width:100%;
+    }
+    .FewActivitiesInTheirMainDiv{
+        margin-top:2.5rem;
+        flex-direction:column;
+        height:auto;
+    }
+    .EachActivitiesInTheirDiv{
+        width:100%;
+        height:25rem;
+    }
+    .EachActivitiesInTheirDiv:last-child{
+        display:flex;
+    }
+}
+
+@media screen and (max-width:378px){
+    #EachActivityMainTittle{
+        font-size:1.5rem;
+    }
+}
+
+@media screen and (max-width:276px){
+    .ExploreTittleActy{
+        font-size:1.5rem;
+    }
+    .ExploreActivityDesc{
+        font-size:0.9rem;
+    }
+}

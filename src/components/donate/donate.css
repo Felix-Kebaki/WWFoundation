@@ -1,0 +1,153 @@
+.DonateMainSec{
+    width:100%;
+    background:white;
+    padding:2rem 0rem 4rem 0rem;
+}
+
+.DonateMainDiv{
+    width:85%;
+    margin:6rem auto 0rem;
+    display:flex;
+}
+
+.EachDonateMainDiv{
+    width:50%;
+    height:30rem;
+    background:#dddddd;
+    display:flex;
+    justify-content: end;
+    align-items:center;
+}
+
+.donateDifferentBackground{
+    background:#3EB489;
+}
+
+.EachDonateMainDiv div{
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+
+#MpesaImg{
+    width:17rem;
+}
+
+.paybillAccount{
+    font-size:1.4rem;
+    font-weight:bolder;
+}
+
+.paybillAccount span{
+    font-size:1.2rem;
+    font-weight:normal;
+}
+
+.InKenyanShs{
+    font-size:1.1rem;
+    text-align:center;
+}
+
+.BankTransferMainTitle{
+    font-size:2rem;
+}
+
+.BankTransferMainDetails{
+    font-size:1.1rem;
+    text-align: center;
+}
+
+.BankTransferMainDetails a{
+    color:black;
+}
+
+@media screen and (max-width:1615px){
+    .DonateMainSec{
+        padding:1.5rem 0rem 3.5rem 0rem;
+    }
+    .DonateMainDiv{
+        width:98%;
+        margin:5rem auto 0rem;
+    }
+}
+
+@media screen and (max-width:1051px){
+    .BankTransferMainDetails{
+        max-width:90%;
+    }
+    
+}
+
+@media screen and (max-width:729px){
+    #MpesaImg{
+        width:14rem;
+    }
+    
+}
+
+@media screen and (max-width:643px){
+    .BankTransferMainDetails{
+        max-width:100%;
+    }
+}
+
+@media screen and (max-width:589px){
+    .InKenyanShs{
+        max-width: 85%;
+    }
+    
+}
+
+@media screen and (max-width:575px){
+    .DonateMainDiv{
+        flex-direction:column;
+        row-gap:0.4rem;
+        margin:4rem auto 0rem;
+    }
+    .EachDonateMainDiv{
+        width:100%;
+        height:25rem;
+        row-gap:0.1rem;
+    }
+    .InKenyanShs{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:532px){
+    .BankTransferMainDetails{
+        max-width:90%;
+    }
+    
+}
+
+@media screen and (max-width:329px){
+    .BankTransferMainDetails{
+        max-width:100%;
+    }
+}
+
+@media screen and (max-width:303px){
+    .InKenyanShs{
+        max-width: 85%;
+    }
+}
+
+@media screen and (max-width:298px){
+    .InKenyanShs{
+        max-width: 80%;
+        font-size:1rem;
+    }
+    .BankTransferMainDetails{
+        font-size:1rem;
+    }
+}
+
+@media screen and (max-width:252px){
+    #MpesaImg{
+        width:12rem;
+    }
+    
+}

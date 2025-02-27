@@ -1,0 +1,264 @@
+.HeroMainSec{
+    width:100%;
+    min-height: 100dvh;
+    height: 57.8px;
+    display: flex;
+    position: relative;
+}
+
+.FirstHeroColor{
+    width:75%;
+    background:#dddddd;
+}
+
+.SecondHeroColor{
+    width:25%;
+    background:#3EB489;
+}
+
+.HeroContentMainDiv{
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    width:85%;
+    min-height:100dvh;
+    margin:0rem auto 0rem;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.HeroMainWordingHero{
+    width:55%;
+}
+
+#SloganText{
+    font-size:1.3rem;
+    color:#3EB489;
+}
+
+.MainTittleAndDescMainDiv{
+    margin-top:1rem;
+}
+
+.MainTittleOnHero{
+    font-size:5rem;
+    line-height: 5rem;
+}
+
+.MainDescOnHero{
+    font-size:1.1rem;
+    color:rgb(29, 29, 29);
+    max-width:75%;
+    margin-top:1rem;
+}
+
+.MainHeroButtonDiv{
+    display:flex;
+    column-gap:3rem;
+    margin-top:1rem;
+}
+
+.MainHeroButtonDiv button{
+    border:none;
+    border-radius:1rem;
+    padding:0.6rem 2rem;
+    font-size:1rem;
+    cursor:pointer;
+}
+
+.ExploreCauseBtnAtHero{
+    background:white;
+    color:#00753d;
+}
+
+.VolunteerBtnAtHero{
+    background:#00753d;
+    color:white;
+}
+
+.TargetedChildrenMainDiv{
+    margin-top:1rem;
+    display: flex;
+    column-gap: 0.8rem;
+    align-items:center;
+}
+
+.ProfileImagesDivOnly img{
+    width:2rem;
+    height: 2rem;
+    border-radius:50%;
+}
+
+#pr{
+    margin-left:-0.7rem;
+}
+
+.HeroImgMainDiv{
+    width:40%;
+    height: 70dvh;
+}
+
+.HeroImgMainDiv img{
+    width:100%;
+    border-radius:2rem;
+    height:100%;
+}
+
+
+@media screen and (max-width:1615px){
+    .HeroContentMainDiv{
+        width:98%;
+    }
+}
+@media screen and (max-width:1403px){
+    .HeroMainSec{
+        min-height: 100dvh;
+        height: 55rem;
+    }
+
+    .HeroMainWordingHero{
+        width:58%;
+    }
+    #SloganText{
+        font-size:1.2rem;
+    }
+    .MainTittleOnHero{
+        font-size:4rem;
+        line-height: 4.1rem;
+    }
+    .MainDescOnHero{
+        margin-top:0.6rem;
+    }
+    
+
+    .HeroImgMainDiv{
+        width:40%;
+    }
+    .HeroImgMainDiv img{
+        border-radius:1rem;
+        height: 60dvh;
+    }
+}
+
+@media screen and (max-width:1068px){
+    .MainTittleOnHero{
+        font-size:3.6rem;
+        line-height: 3.7rem;
+    }
+}
+
+@media screen and (max-width:963px){
+
+    
+    #SloganText{
+        font-size:1.1rem;
+    }
+    .MainTittleOnHero{
+        font-size:3.4rem;
+        line-height: 3.4rem;
+    }
+    .MainDescOnHero{
+        font-size:1rem;
+        max-width:75%;
+        margin-top:0.4rem;
+    }
+    .MainHeroButtonDiv button{
+        padding:0.6rem 1.6rem;
+    }
+}
+
+@media screen and (max-width: 943px) {
+    .HeroMainSec{
+        min-height: 100dvh;
+        height: 55rem;
+    }
+    .HeroContentMainDiv{
+        flex-direction:column;
+        justify-content:center;
+        align-items: start;
+        row-gap:1rem;
+    }
+    
+    .HeroMainWordingHero{
+        height:fit-content;
+        width:100%;
+        margin-top:4.5rem;
+    }
+    #SloganText{
+        color:#3EB489;
+    }
+    .MainTittleAndDescMainDiv{
+        margin-top:0.4rem;
+    }
+    
+    
+    .MainTittleOnHero{
+        font-size:4rem;
+        line-height: 4.1rem;
+    }
+    .HeroImgMainDiv{
+        height: 43%;
+        margin-bottom:0.6rem;
+        width:100%;
+    }
+    .HeroImgMainDiv img{
+        width:100%;
+        height:100%;
+    }
+    
+}
+
+
+@media screen and (max-width: 485px) {
+    .MainTittleOnHero{
+        font-size:3.5rem;
+        line-height: 3.6rem;
+    }
+    .MainDescOnHero{
+        font-size:1rem;
+        max-width:90%;
+    }
+}
+
+
+@media screen and (max-width: 461px) {
+    .MainTittleOnHero{
+        font-size:3rem;
+        line-height: 3.1rem;
+    }
+    .MainDescOnHero{
+        max-width:100%;
+    }
+    .MainHeroButtonDiv{
+        column-gap:1rem;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    #SloganText{
+        font-size:0.9rem;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .MainTittleOnHero{
+        font-size:2.5rem;
+        line-height: 2.6rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .MainHeroButtonDiv{
+        column-gap:0.5rem;
+    }
+    .MainHeroButtonDiv button{
+        padding:0.6rem 1rem;
+        font-size:0.9rem;
+    }
+}
+
+    
+   

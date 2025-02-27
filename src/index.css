@@ -1,0 +1,72 @@
+@font-face {
+  font-family: medium;
+  src: url(./assets/fonts/SFPRODISPLAYMEDIUM.OTF);
+}
+
+@font-face {
+  font-family: regular;
+  src: url(./assets/fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+@font-face {
+  font-family: italics;
+  src: url(./assets/fonts/SFPRODISPLAYLIGHTITALIC.OTF);
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.medium{
+  font-family: medium;
+}
+
+.italics{
+  font-family: italics;
+}
+
+.regular{
+  font-family: regular;
+}
+
+.AppMainSec{
+  min-height:100dvh;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  position:relative;
+}
+
+.NavbarPostioningDiv{
+  position:absolute;
+  top:0;
+  right:0;
+  left:0;
+  z-index:999;
+}
+
+/* scroll to top */
+
+.ToTopDiv{
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 99999;
+  display: none;
+}
+
+.ToTopDivShow{
+  display: block;
+}
+
+.ToTop{
+  padding: 0.5rem 0.6rem;
+  background: #00753d;
+  color: white;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+
+}

@@ -1,0 +1,266 @@
+.TargetMainSec{
+    width:100%;
+    background:white;
+    padding:3rem 0rem 4rem 0rem;
+}
+
+.TargetMainDiv{
+    width:85%;
+    margin:0rem auto 0rem;
+    display: flex;
+    column-gap:1rem;
+    justify-content:center;
+    align-items: center;
+}
+
+.TargetSectionWithImgWordDiv{
+    width:40%;
+}
+
+.TargetImgWordDesc{
+    font-size:1.1rem;
+}
+
+#TargetValue{
+    font-size:14rem;
+    color:white;
+    -webkit-text-stroke-color:#3EB489;
+    -webkit-text-stroke-width: 0.15rem;
+}
+
+.TargetSectionWithDetailsDiv{
+    width:50%;
+}
+
+#TargetWithDetailsMainTitle{
+    font-size:4rem;
+    max-width:95%;
+    line-height: 3.7rem;
+}
+
+#TargetWithDetailsMainDesc{
+    font-size:1.1rem;
+    max-width:70%;
+    margin-top:0.7rem;
+    color:black;
+}
+
+#TargetWithDetailsMainDesc:last-child{
+    color:rgba(37, 37, 37, 0.836);
+    margin-top:0.4rem;
+}
+
+.TargetBtnMainDiv{
+    margin-top:1rem;
+}
+
+.TargetBtnMainDiv button{
+    border:none;
+    background:#00753d;
+    color:white;
+    border-radius:1rem;
+    padding:0.6rem 2rem;
+    font-size:1rem;
+    cursor:pointer;
+}
+
+
+@media screen and (max-width:1615px){
+    .TargetMainDiv{
+        width:98%;
+    }
+}
+
+@media screen and (max-width:1615px){
+    #TargetWithDetailsMainTitle{
+        max-width:90%;
+    }
+}
+
+@media screen and (max-width:1456px){
+    #TargetWithDetailsMainTitle{
+        max-width:95%;
+    }
+}
+
+@media screen and (max-width:1433px){
+    #TargetWithDetailsMainTitle{
+        max-width:100%;
+    }
+}
+
+@media screen and (max-width:1372px){
+    .TargetImgWordDesc{
+        font-size:1rem;
+    }
+    
+    #TargetValue{
+        font-size:12rem;
+    }
+    
+}
+
+@media screen and (max-width:1312px){
+    #TargetWithDetailsMainTitle{
+        font-size:3.5rem;
+        line-height: 3.4rem;
+    }
+    #TargetWithDetailsMainDesc{
+        max-width:75%;
+    }
+}
+
+@media screen and (max-width: 1152px) {
+    #TargetValue{
+        font-size:10rem;
+        -webkit-text-stroke-width: 0.1rem;
+    }
+    #TargetWithDetailsMainTitle{
+        font-size:3.2rem;
+        line-height: 3.2rem;
+    }
+    #TargetWithDetailsMainDesc{
+        max-width:90%;
+    }
+}
+
+@media screen and (max-width: 1053px) {
+    #TargetWithDetailsMainTitle{
+        font-size:3rem;
+        line-height: 2.9rem;
+    }
+    #TargetWithDetailsMainDesc{
+        max-width:100%;
+    }
+}
+
+@media screen and (max-width: 989px) {
+    .TargetSectionWithImgWordDiv{
+        width:35%;
+    }
+    #TargetValue{
+        font-size:7rem;
+        -webkit-text-stroke-width: 0.04rem;
+    }
+    .TargetSectionWithDetailsDiv{
+        width:67%;
+    }
+    
+}
+
+@media screen and (max-width: 943px) {
+    .TargetMainSec{
+        padding:2rem 0rem 4rem 0rem;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    #TargetWithDetailsMainTitle{
+        font-size:2.4rem;
+        line-height: 2.5rem;
+    } 
+
+    #TargetWithDetailsMainDesc{
+        font-size:1rem;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    #TargetValue{
+        font-size:5rem;
+    }
+    .TargetImgWordDesc{
+        font-size:0.9rem;
+    }
+}
+
+@media screen and (max-width: 584px) {
+    #TargetWithDetailsMainTitle{
+        font-size:2rem;
+        line-height: 2.1rem;
+    } 
+}
+
+@media screen and (max-width: 575px) {
+    .TargetMainSec{
+        padding:0rem 0rem 3rem 0rem;
+    }
+    
+    .TargetMainDiv{
+        flex-direction:column;
+        row-gap:1.5rem;
+        justify-content:start;
+        align-items: start;
+    }
+    
+    .TargetSectionWithImgWordDiv{
+        width:100%;
+    }
+
+    #TargetValue{
+        font-size:13rem;
+        -webkit-text-stroke-width: 0.1rem;
+    }
+
+    .TargetSectionWithDetailsDiv{
+        width:100%;
+    }
+    
+    #TargetWithDetailsMainDesc{
+        font-size:1rem;
+    }
+    
+    
+}
+
+@media screen and (max-width: 543px) {
+    #TargetValue{
+        font-size:11rem;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .TargetMainDiv{
+        row-gap:1rem;
+    }
+    #TargetWithDetailsMainTitle{
+        font-size:2.7rem;
+        line-height: 2.9rem;
+    }
+    
+}
+
+@media screen and (max-width: 455px) {
+    #TargetValue{
+        font-size:9rem;
+        -webkit-text-stroke-width: 0.06rem;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    #TargetWithDetailsMainTitle{
+        font-size:2.3rem;
+        line-height: 2.4rem;
+    } 
+}
+
+@media screen and (max-width: 363px) {
+    #TargetWithDetailsMainTitle{
+        font-size:2rem;
+        line-height: 2.1rem;
+    }  
+}
+
+@media screen and (max-width: 355px) {
+    #TargetValue{
+        font-size:7rem;
+        -webkit-text-stroke-width: 0.05rem;
+    }
+}
+
+@media screen and (max-width: 279px) {
+    #TargetValue{
+        font-size:5rem;
+        -webkit-text-stroke-width: 0.03rem;
+    }
+}

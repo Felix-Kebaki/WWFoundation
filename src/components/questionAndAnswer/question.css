@@ -1,0 +1,78 @@
+.QuestionAndAnswerMainSec{
+    padding:4rem 0rem 6rem 0rem;
+    width:100%;
+}
+
+.QuestionAndAnswerMainDiv{
+    width:85%;
+    margin:0rem auto 0rem;
+}
+
+.QuestionAndAnswerIntroTitle{
+    color:#3EB489;
+    font-size:0.9rem;
+}
+
+.QuestionAndAnswerActualDiv{
+    margin-top:2rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    row-gap:0.5rem;
+}
+
+.InsideQuestionAndAnswerActualDiv{
+    border-bottom: 0.1rem #3EB489 solid;
+}
+
+.HeaderOrQuestionDiv{
+    display:flex;
+    justify-content:space-between;
+    cursor:pointer;
+    padding:0.6rem 0rem;
+    font-size:1.2rem;
+}
+
+.AnswerToQuestion{
+    font-size:1rem;
+    max-width:50%;
+    padding-bottom:0.5rem;
+}
+
+@media screen and (max-width:1615px){
+    .QuestionAndAnswerMainDiv{
+        width:98%;
+    }
+}
+
+@media screen and (max-width:1138px){
+    .QuestionAndAnswerMainSec{
+        padding:0.7rem 0rem 4rem 0rem;
+    }
+
+    .QuestionAndAnswerActualDiv{
+        margin-top:1.5rem;
+    }
+    
+    .AnswerToQuestion{
+        max-width:60%;
+    }
+}
+
+@media screen and (max-width:957px){
+    .AnswerToQuestion{
+        max-width:70%;
+    }
+}
+
+@media screen and (max-width:818px){
+    .AnswerToQuestion{
+        max-width:90%;
+    }
+}
+
+@media screen and (max-width:516px){
+    .HeaderOrQuestionDiv{
+        font-size:1.1rem;
+    }
+}

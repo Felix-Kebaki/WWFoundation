@@ -1,0 +1,125 @@
+.MissionVissionMainSec{
+    width:100%;
+    background-color: white;
+    padding:3rem 0rem 1rem 0rem;
+}
+
+.MissionVissionMainDiv{
+    display:flex;
+    width:100%;
+    height:30rem;
+}
+
+.EachDivAtMissionVission{
+    width:50%;
+    height: 100%;
+    position:relative;
+}
+
+.EachDivAtMissionVission img{
+    width:100%;
+    height:100%;
+    filter:brightness(0.4);
+}
+
+.EachDivMainContentAtMissionVission{
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    width:70%;
+    margin-left:7rem;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
+#VissionMissionTitle{
+    font-size:4rem;
+    color:white;
+}
+
+#MissionVissionIcon{
+    color:#3EB489;
+}
+
+#VissionMissionDesc{
+    color:white;
+    font-size:1.1rem;
+    text-align:center;
+}
+
+@media screen and (max-width: 1493px) {
+    .EachDivMainContentAtMissionVission{
+        width:75%;
+    }
+    
+    #VissionMissionTitle{
+        font-size:3.5rem;
+    }
+    
+    #MissionVissionIcon{
+        font-size:3rem;
+    }
+    
+}
+
+@media screen and (max-width:1339px){
+    .EachDivMainContentAtMissionVission{
+        margin-left:4rem;
+        width:80%;
+    }
+}
+
+@media screen and (max-width:1138px){
+    .MissionVissionMainSec{
+        padding:1rem 0rem 2rem 0rem;
+    }
+    
+}
+
+@media screen and (max-width: 943px) {
+    .MissionVissionMainSec{
+        padding:1rem 0rem 4rem 0rem;
+    }
+    .MissionVissionMainDiv{
+        flex-direction:column;
+        height:50rem;
+    }
+    .EachDivAtMissionVission{
+        width:100%;
+        height: 50%;
+    }
+    .EachDivMainContentAtMissionVission{
+        width:100%;
+        margin-left:0rem;
+    }
+    #VissionMissionDesc{
+        max-width:80%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #VissionMissionDesc{
+        max-width:90%;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    #VissionMissionTitle{
+        font-size:3rem;
+    }
+    
+    #MissionVissionIcon{
+        font-size:2.5rem;
+    }
+    #VissionMissionDesc{
+        max-width:100%;
+        font-size:1rem;
+    }
+}
+
+
+

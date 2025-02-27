@@ -1,0 +1,107 @@
+.TopImageMainSec {
+  width: 100%;
+}
+
+.TopImageMainDiv {
+  width: 100%;
+  position: relative;
+  height: 30rem;
+}
+
+.TopActualBackgroundImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ImageColoring {
+  background: linear-gradient(
+    to bottom,
+    #70ffcbab,
+    rgba(34, 34, 34, 0.527),
+    #3a3a3aad
+  );
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.TopBackgroundTittleDiv {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.TopBackgroundTittleDiv div {
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0rem auto 0rem;
+}
+
+.TopBackgroundTittle {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.TopBackgroundDecs {
+  font-size: 1rem;
+  color: white;
+}
+
+#ArrowIconTopBackground {
+  color: #3eb489;
+  margin: 0rem 0.2rem 0rem 0.2rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 1615px) {
+  .TopBackgroundTittleDiv div {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 943px) {
+  .TopBackgroundTittle {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .TopImageMainDiv {
+    height: 25rem;
+  }
+
+  .TopBackgroundTittle {
+    font-size: 1.7rem;
+  }
+
+  .TopBackgroundDecs {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 354px) {
+    .TopBackgroundTittle {
+        font-size: 1.3rem;
+      }
+      #ArrowIconTopBackground {
+        color: #3eb489;
+        margin: 0rem 0rem 0rem 0rem;
+      }
+}
+
+@media screen and (max-width: 271px) {
+    .TopBackgroundTittle {
+        font-size: 1rem;
+      }
+    .TopBackgroundDecs {
+        font-size: 0.8rem;
+      }
+      
+}

@@ -1,0 +1,404 @@
+.FooterMainSec{
+    width:100%;
+    padding:2rem 0rem 1rem 0rem;
+    background-color: #dddddd;
+}
+
+.FooterMainDiv{
+    width:85%;
+    margin:0rem auto 0rem;
+}
+
+.VolunteerMainDiv{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.VolunteerDetailsDiv{
+    width:45%;
+}
+
+.VolunteerMainTittle{
+    font-size:3rem;
+    line-height: 3rem;
+}
+
+.VolunteerDesc{
+    margin-top:1rem;
+    font-size:1rem;
+    max-width:80%;
+}
+
+.JoinVolunteeringBtnDiv{
+    margin-top:1rem;
+}
+
+.JoinVolunteeringBtnDiv button{
+    border:none;
+    border-radius:2rem;
+    background:#00753d;
+    color:white;
+    cursor:pointer;
+    padding:0.7rem 2rem;
+    font-size:1rem;
+}
+
+.VolunteerMainImgDiv{
+    width:50%;
+    margin-top:-7rem;
+}
+
+.VolunteerMainImgDiv img{
+    width:100%;
+    height:25rem;
+}
+
+.FooterLinksMainDiv{
+    width:100%;
+    border-radius:1rem;
+    padding:3rem 3rem;
+    margin:0rem auto 0rem;
+    background:#082516;
+    display:flex;
+    justify-content:space-between;
+}
+
+.ImageAtFooterDiv img{
+    width:13rem;
+    height:5rem;
+    margin-top:0.4rem;
+    filter: brightness(0.6);
+}
+
+.LinksAndContactInfoFooterDiv{
+    display: flex;
+    column-gap: 10rem;
+}
+
+.QuickLinksDivOnly{
+    display: flex;
+    flex-direction:column;
+    row-gap:0.3rem;
+}
+
+.QuickLinksDivOnly p{
+    color:white;
+    font-size:1.3rem;
+}
+
+#ArrowIconFooter{
+    color:white;
+    margin-right: 0.4rem;
+}
+
+.QuickLinksDivOnly a{
+    text-decoration:none;
+    color:#ddddddb4;
+    padding:0.2rem 0rem 0.2rem 0rem;
+    font-size:1rem;
+}
+
+
+.GetInTouchFooterDiv{
+    display: flex;
+    flex-direction:column;
+    row-gap:0.3rem;
+    width:max-content;
+}
+
+.GetInTouchFooterTitleActual{
+    color:white;
+    font-size:1.3rem;
+}
+
+
+.GetInTouchDisplayColumn{
+    display: flex;
+    flex-direction:column;
+}
+
+#firstAtFooter{
+    margin-top: 0.8rem;
+}
+
+
+.GetInTouchDisplay{
+    display:flex;
+    align-items:center;
+    width:max-content;
+}
+
+.GetInTouchDisplay p,#LocationFooter{
+    text-decoration:none;
+    color:#ddddddb4;
+    padding:0.2rem 0rem 0.2rem 0rem;
+    font-size:1rem;
+}
+
+.CopyrightMainDiv{
+    margin-top:1rem;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.CopyrightMainDiv p a{
+    text-decoration: none;
+    color:#3EB489;
+}
+
+.FooterSocialIconsDiv{
+    display: flex;
+    column-gap:0.8rem;
+}
+
+.FooterSocialIconsDiv a{
+    text-decoration:none;
+}
+
+.FooterSocialIconsDiv #iconSocials{
+    width:1rem;
+    height: 1rem;
+    border-radius:50%;
+    border:0.1rem black solid;
+    color:black;
+    padding:0.5rem;
+}
+
+@media screen and (max-width:1615px){
+    .FooterMainDiv{
+        width:98%;
+    }
+}
+
+@media screen and (max-width:1242px){
+    .FooterMainSec{
+        padding:2rem 0rem 0.2rem 0rem;
+    }
+    .VolunteerDetailsDiv{
+        width:48%;
+    }
+    
+    .VolunteerMainTittle{
+        font-size:2.7rem;
+        line-height: 2.6rem;
+    }
+    
+    .VolunteerDesc{
+        margin-top:0.8rem;
+        max-width:85%;
+    }
+    
+    .JoinVolunteeringBtnDiv{
+        margin-top:0.8rem;
+    }
+    
+    .VolunteerMainImgDiv{
+        margin-top:-5rem;
+    }
+    
+    .VolunteerMainImgDiv img{
+        height:23rem;
+    }
+
+    .FooterLinksMainDiv{
+        padding:2rem;
+    }
+
+    .LinksAndContactInfoFooterDiv{
+        column-gap: 5rem;
+    }
+    
+    .CopyrightMainDiv{
+        margin-top:0.5rem;
+    }
+    
+    
+}
+
+@media screen and (max-width:1030px){
+    .VolunteerMainTittle{
+        font-size:2.4rem;
+        line-height: 2.5rem;
+    }
+    .LinksAndContactInfoFooterDiv{
+        column-gap: 4rem;
+    }
+
+    .FooterLinksMainDiv{
+        padding:1.5rem;
+    }
+}
+@media screen and (max-width: 943px) {
+    .VolunteerMainDiv{
+        flex-direction:column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .VolunteerDetailsDiv{
+        width:90%;
+    }
+
+    .VolunteerDesc{
+        margin-top:0.4rem;
+    }
+    
+    .JoinVolunteeringBtnDiv{
+        margin-top:0.8rem;
+    }
+
+    .VolunteerMainImgDiv{
+        width:90%;
+        margin-top:0.3rem;
+    }
+    .ImageAtFooterDiv img{
+        width:9rem;
+        height:4rem;
+        margin-top:0rem;
+    }
+    
+}
+
+@media screen and (max-width:816px){
+    .VolunteerMainImgDiv img{
+        height:20rem;
+    }
+    .CopyrightMainDiv{
+        margin-top:0.3rem;
+    }
+    .CopyrightMainDiv p{
+        font-size:0.9rem;
+    }
+
+    .FooterSocialIconsDiv #iconSocials{
+        width:0.8rem;
+        height: 0.8rem;
+    }
+}
+
+@media screen and (max-width:753px){
+    .LinksAndContactInfoFooterDiv{
+        column-gap: 2rem;
+    } 
+}
+
+@media screen and (max-width:733px){
+    .VolunteerDetailsDiv{
+        width:100%;
+    }
+    .VolunteerMainImgDiv{
+        width:100%;
+        margin-top:0.3rem;
+    }
+    .CopyrightMainDiv{
+        flex-direction:column-reverse;
+        justify-content:start;
+        row-gap:0.1rem;
+        align-items:start;
+    }
+    
+}
+
+@media screen and (max-width: 638px) {
+    .FooterLinksMainDiv{
+        flex-direction:column;
+        row-gap:7rem;
+        justify-content:start;
+        align-items:start;
+    }
+    
+    .ImageAtFooterDiv img{
+        width:10rem;
+        height:4rem;
+    }
+
+    .LinksAndContactInfoFooterDiv{
+        column-gap: 4rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .VolunteerDesc{
+        max-width:100%;
+    }
+
+    .VolunteerMainImgDiv img{
+        height:17rem;
+    }
+
+
+}
+
+@media screen and (max-width:504px){
+    .LinksAndContactInfoFooterDiv{
+        flex-direction:column;
+        justify-content:start;
+        align-items: start;
+        row-gap:0.8rem;
+    }
+}
+
+
+@media screen and (max-width:409px){
+    .VolunteerMainTittle{
+        font-size:2rem;
+        line-height: 2rem;
+    }
+
+    .VolunteerDesc{
+        font-size:1rem;
+    }
+    
+}
+
+@media screen and (max-width:396px){
+    .LinksAndContactInfoFooterDiv{
+        column-gap: 0rem;
+        width:100%;
+        justify-content:space-between;
+    }
+    .QuickLinksDivOnly{
+        row-gap:0.1rem;
+    }
+    .QuickLinksDivOnly p{
+        font-size:1.3rem;
+    }
+    .QuickLinksDivOnly a{
+        padding:0.2rem 0rem 0.2rem 0rem;
+        font-size:0.9rem;
+    }
+    #firstAtFooter{
+        margin-top: 0.4rem;
+    }
+}
+
+@media screen and (max-width:378px){
+    .VolunteerMainTittle{
+        font-size:1.9rem;
+    }
+
+}
+
+@media screen and (max-width:327px){
+    .VolunteerMainTittle{
+        font-size:1.7rem;
+        line-height: 1.6rem;
+    }
+}
+
+@media screen and (max-width:318px){
+    .CopyrightMainDiv p{
+        font-size:0.8rem;
+    }
+}
+
+@media screen and (max-width:311px){
+    .FooterLinksMainDiv{
+        padding:1rem 0.1rem;
+    }
+    #LongEmailFooter{
+        font-size:0.9rem;
+    }
+}

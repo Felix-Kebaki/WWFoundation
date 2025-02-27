@@ -1,0 +1,291 @@
+.IntroAboutMainSec{
+    background:white;
+    width:100%;
+    padding:4rem 0rem 2rem 0rem;
+}
+
+.IntroAboutMainDiv{
+    width:85%;
+    margin:0rem auto 0rem;
+    display:flex;
+    justify-content:space-between;
+    align-items: start;
+}
+
+.IntroAboutMainDiv1{
+    width:70%;
+    display:flex;
+    flex-direction:column;
+}
+
+.AboutMainImgDiv{
+    width:100%;
+    position:relative;
+}
+
+.AboutMainImgDiv #AboutMainImg{
+    width:100%;
+    height:45rem;
+    border-radius:0.5rem;
+    object-fit: cover;
+}
+
+#BurdgeImg{
+    position:absolute;
+    top:4rem;
+    right:-5rem;
+    width:18rem;
+    height:18rem;
+}
+
+.AboutMainContentDiv{
+    margin-top: 1rem;
+}
+
+#AboutMainWittyTitle{
+    font-size:4rem;
+    line-height: 4.2rem;
+}
+
+#AboutMainWittyDec1{
+    font-size:1.2rem;
+    margin-top:1.4rem;
+}
+
+#AboutMainWittyDec1:last-child{
+    margin-top:1rem;
+}
+
+.AboutUsPageDonteBtnDiv{
+    margin-top:1rem;
+}
+
+.AboutUsPageDonteBtnDiv button{
+    background-color: #00753d;
+    color:white;
+    border:none;
+    border-radius:1rem;
+    padding:0.6rem 2rem;
+    font-size:1rem;
+    cursor:pointer;
+}
+
+.IntroAboutMainDiv2{
+    width:25%;
+    display:flex;
+    row-gap:2rem;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.IntroAboutIconSideMainDiv{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    row-gap:0.8rem;
+    align-items:center;
+}
+
+.AboutIconOrImageDiv{
+    width:7rem;
+    height:7rem;
+    background:#dddddd;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.DifferentBackground{
+    background-color: #00753d;
+}
+
+.AboutIconOrImageDiv img{
+    width:50%;
+}
+
+#HeartIconAtAbout{
+    font-size:3.5rem;
+    color:white;
+}
+
+#AboutValueAndDescMainTittle{
+    text-align: center;
+    font-size:1.7rem;
+}
+
+#AboutValueAndDescActualDisc{
+    font-size:1.1rem;
+    text-align:center;
+}
+
+
+@media screen and (max-width:1615px){
+    .IntroAboutMainDiv{
+        width:98%;
+    }
+}
+
+@media screen and (max-width:1013px){
+    #AboutMainWittyTitle{
+        font-size:3.5rem;
+        line-height: 3.6rem;
+    }
+}
+
+@media screen and (max-width: 943px) {
+    .IntroAboutMainSec{
+        padding:1rem 0rem 1.5rem 0rem;
+    }
+    .IntroAboutMainDiv{
+        flex-direction:column-reverse;
+        row-gap:2rem;
+        justify-content:start;
+        align-items: start;
+    }
+    .IntroAboutMainDiv2{
+        width:100%;
+        row-gap:0rem;
+        flex-direction:row;
+        column-gap:0.4rem;
+    }
+    .IntroAboutIconSideMainDiv{
+        height:16rem;
+        align-items: center;
+        justify-content: center;
+        box-shadow:0rem 0rem 0.4rem rgba(139, 139, 139, 0.514);
+        border-radius:0.3rem;
+    }
+    .IntroAboutMainDiv1{
+        width:100%;
+    }
+    .AboutMainImgDiv #AboutMainImg{
+        width:100%;
+        height:35rem;
+    }
+    
+.AboutMainContentDiv{
+    margin-top: 0.5rem;
+}
+    #AboutMainWittyTitle{
+        font-size:3.3rem;
+        line-height: 3.4rem;
+    }
+    #AboutMainWittyDec1{
+        font-size:1.1rem;
+        margin-top:0.9rem;
+    }
+}
+
+@media screen and (max-width: 915px) {
+    #AboutValueAndDescMainTittle{
+        font-size:1.4rem;
+    }
+    #AboutValueAndDescActualDisc{
+        font-size:1rem;
+    }
+}
+
+@media screen and (max-width: 654px) {
+    .IntroAboutIconSideMainDiv{
+        row-gap:0.3rem;
+    }
+    .AboutIconOrImageDiv{
+        width:5rem;
+        height:5rem;
+    }
+    #HeartIconAtAbout{
+        font-size:2.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 593px) {
+    #AboutMainWittyTitle{
+        font-size:3rem;
+        line-height: 3.1rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .IntroAboutMainDiv2{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows:repeat(2,16rem);
+        gap:0.5rem;
+        grid-template-areas: 
+            "Div1 Div3"
+            "Div2 Div2"
+        ;
+    }
+    .Div1{
+        grid-area: Div1;
+    }
+    .Div2{
+        grid-area: Div2;
+        box-shadow:none;
+    }
+    .Div3{
+        grid-area: Div3;
+    }
+
+    .Div2 .AboutIconOrImageDiv{
+        width:7rem;
+        height:7rem;
+    }
+    #HeartIconAtAbout{
+        font-size:3.5rem;
+    }
+    .Div2 #AboutValueAndDescMainTittle{
+        font-size:2rem;
+    }
+    .Div2 #AboutValueAndDescActualDisc{
+        font-size:1.1rem;
+    }
+}
+
+@media screen and (max-width: 542px) {
+    #AboutMainWittyTitle{
+        font-size:2.5rem;
+        line-height: 2.6rem;
+    }
+    #AboutMainWittyDec1{
+        margin-top:0.4rem;
+    }
+}
+
+@media screen and (max-width: 362px) {
+    .IntroAboutMainDiv2{
+        display:flex;
+        flex-direction:column;
+        row-gap:0.6rem;
+    }
+    .Div2{
+        box-shadow:0rem 0rem 0.4rem rgba(139, 139, 139, 0.514);
+    }
+    .Div2 .AboutIconOrImageDiv{
+        width:5rem;
+        height:5rem;
+    }
+    #HeartIconAtAbout{
+        font-size:2.5rem;
+    }
+    .Div2 #AboutValueAndDescMainTittle{
+        font-size:1.5rem;
+    }
+    .Div2 #AboutValueAndDescActualDisc{
+        font-size:1rem;
+    }
+}
+
+@media screen and (max-width: 348px) {
+    #AboutMainWittyTitle{
+        font-size:2rem;
+        line-height: 2.1rem;
+    }
+    #AboutMainWittyDec1{
+        font-size:1rem;
+    }
+}
+

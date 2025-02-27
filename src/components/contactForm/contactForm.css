@@ -1,0 +1,405 @@
+.ContactPageMainSec {
+  width: 100%;
+  background: white;
+}
+
+.ContactPageMainDiv {
+  width: 85%;
+  margin: 0rem auto 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 0rem 3rem 0rem;
+}
+
+.ContactFormMainContactP {
+  width: 40%;
+  background-color: white;
+  box-shadow: 0rem 0rem 0.3rem rgba(104, 104, 104, 0.445);
+  border-radius: 0.2rem;
+  padding: 3rem 2rem 3rem 2rem;
+}
+
+.ContactFormMainContactP input {
+  padding: 1rem 0.5rem;
+  width: 100%;
+  margin-top: 1.5rem;
+  outline: none;
+  font-size: 1rem;
+}
+
+.ContactFormMainContactP textarea {
+  min-width: 100%;
+  max-width: 100%;
+  padding: 1rem 0.5rem;
+  margin-top: 1.5rem;
+  outline: none;
+  font-size: 1rem;
+}
+
+.PreTagWithSendMessage{
+  margin-top:0.5rem;
+  font-weight:lighter;
+  font-size:0.8rem;
+  margin-left:0.2rem;
+}
+
+.SubmitMessageContactDiv {
+  margin-top: 1rem;
+}
+
+.SubmitMessageContactDiv button {
+  border: none;
+  background: #00753d;
+  color: white;
+  border-radius: 4rem;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.ContactPageContentMainDiv {
+  width: 50%;
+}
+
+#ItalicContactMainTitle {
+  font-size: 1rem;
+  color: #3eb489;
+}
+
+#GetinTouchContactPage {
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+#GetInTouchContactDesc {
+  font-size: 1.1rem;
+  max-width: 90%;
+  margin-top: 1rem;
+  color: rgba(48, 48, 48, 0.815);
+}
+
+.ContactIconMainDiv {
+  display: flex;
+  padding: 2rem 0rem 2rem 0rem;
+  column-gap: 1rem;
+}
+
+.ContactIconDiv1 {
+  display: flex;
+  column-gap: 0.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContactIconDiv1 .IconOrImgMainDivContact {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContactIconDiv1 div img {
+  width: 50%;
+}
+
+.ContactIconDiv2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.4rem;
+}
+
+.ContactIconDiv2 .IconOrImgMainDivContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: #3eb489;
+}
+
+#ContactPhoneIcon {
+  font-size: 1.6rem;
+  color: white;
+}
+
+.ContactDescRelationToIconDiv {
+  row-gap: 0.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactDescRelationToIconDiv p:first-child {
+  font-size: 1.1rem;
+}
+
+.ContactDescRelationToIconDiv p:last-child ,.ContactDescRelationToIconDiv p:nth-child(2){
+  color: rgba(0, 0, 0, 0.568);
+  font-size: 0.9rem;
+}
+
+#HorizontalLineAtContactPage {
+  background: black;
+  border: none;
+  width: 60%;
+  height: 0.1rem;
+}
+
+#FollowLinkTittleOnContact {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.ContactSocilLinkMainDiv {
+  display: flex;
+  column-gap: 1rem;
+  margin-top: 1rem;
+}
+
+.ContactSocilLinkMainDiv a {
+  display: flex;
+  column-gap: 0.5rem;
+  text-decoration: none;
+  align-items: center;
+}
+
+.ContactSocilLinkMainDiv #iconSocials {
+  color: #00753d;
+  font-size: 1.3rem;
+}
+
+.ContactSocilLinkMainDiv a p {
+  color: black;
+}
+
+@media screen and (max-width: 1615px) {
+  .ContactPageMainDiv {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 1204px) {
+  .ContactFormMainContactP {
+    width: 45%;
+  }
+
+  #GetinTouchContactPage {
+    font-size: 2rem;
+  }
+
+  #GetInTouchContactDesc {
+    font-size: 1rem;
+  }
+
+  .ContactIconDiv1 .IconOrImgMainDivContact {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .ContactIconDiv1 div img {
+    width: 50%;
+  }
+
+  .ContactIconDiv2 .IconOrImgMainDivContact {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  #ContactPhoneIcon {
+    font-size: 1.4rem;
+  }
+
+  #FollowLinkTittleOnContact {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 963px) {
+  .ContactSocilLinkMainDiv {
+    column-gap: 0.7rem;
+  }
+  
+  .ContactSocilLinkMainDiv a {
+    column-gap: 0.4rem;
+  }
+  
+}
+
+@media screen and (max-width: 943px) {
+  .ContactPageMainSec {
+    padding-bottom: 4rem;
+  }
+
+  .ContactPageMainDiv {
+    padding: 2rem 0rem 0rem 0rem;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: start;
+    row-gap: 3rem;
+  }
+
+  .ContactFormMainContactP {
+    width: 90%;
+  }
+
+  .ContactPageContentMainDiv {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .ContactFormMainContactP {
+    width: 100%;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+  }
+
+  .ContactPageContentMainDiv {
+    width: 100%;
+  }
+
+  .ContactPageMainDiv {
+    padding: 1.4rem 0rem 0rem 0rem;
+  }
+
+  #ItalicContactMainTitle {
+    margin-top: 0rem;
+  }
+
+  #GetinTouchContactPage {
+    margin-top: 0.4rem;
+  }
+
+  #GetInTouchContactDesc {
+    margin-top: 0.3rem;
+  }
+  .ContactIconMainDiv {
+    padding: 0.8rem 0rem 0.8rem 0rem;
+  }
+
+  #HorizontalLineAtContactPage {
+    width: 80%;
+    height: 0.05rem;
+  }
+
+  #FollowLinkTittleOnContact {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ContactIconMainDiv {
+    column-gap: 0.5rem;
+  }
+
+  .ContactIconDiv1 {
+    column-gap: 0.3rem;
+  }
+
+  .ContactIconDiv2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.4rem;
+  }
+
+  .ContactDescRelationToIconDiv {
+    row-gap: 0.4rem;
+  }
+
+  .ContactDescRelationToIconDiv p:first-child {
+    font-size: 0.9rem;
+  }
+
+  .ContactDescRelationToIconDiv p:last-child ,.ContactDescRelationToIconDiv p:nth-child(2) {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .ContactSocilLinkMainDiv {
+    column-gap: 0.4rem;
+  }
+  
+  .ContactSocilLinkMainDiv a {
+    column-gap: 0.2rem;
+  }
+  
+}
+
+@media screen and (max-width: 468px) {
+  .ContactSocilLinkMainDiv {
+    column-gap: 0.3rem;
+    margin-top: 0.8rem;
+  }
+  
+  .ContactSocilLinkMainDiv a {
+    column-gap: 0.1rem;
+    font-size:0.9rem;
+  }
+  .ContactSocilLinkMainDiv #iconSocials {
+    font-size: 1.2rem;
+  }
+  
+}
+
+
+@media screen and (max-width: 402px) {
+  #GetInTouchContactDesc {
+    max-width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 382px) {
+
+  .ContactSocilLinkMainDiv a p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 341px) {
+  .ContactIconDiv1 .IconOrImgMainDivContact {
+    width: 3rem;
+    height: 3rem;
+  }
+  .ContactIconDiv2 .IconOrImgMainDivContact {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  #ContactPhoneIcon {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 326px) {
+  .ContactIconDiv1 .IconOrImgMainDivContact {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .ContactIconDiv2 .IconOrImgMainDivContact {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  #ContactPhoneIcon {
+    font-size: 1rem;
+  }
+
+  .ContactDescRelationToIconDiv {
+    row-gap: 0.2rem;
+  }
+
+  .ContactDescRelationToIconDiv p:first-child {
+    font-size: 0.8rem;
+  }
+  .ContactDescRelationToIconDiv p:last-child ,.ContactDescRelationToIconDiv p:nth-child(2){
+    font-size: 0.7rem;
+  }
+
+}

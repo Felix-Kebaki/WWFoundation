@@ -1,0 +1,170 @@
+.HomeDonateMainSec{
+    width:100%;
+    height:30rem;
+    position:relative;
+    margin:4rem 0rem 2rem 0rem;
+}
+
+.HomeDonateBackgroundImg{
+   width:100%;
+   height:100%;
+}
+
+#BackgroundDonate{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    filter:brightness(0.4);
+}
+
+.HomeDonateMainDiv{
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    display:flex;
+    flex-direction:column;
+    row-gap:0.5rem;
+    align-items:center;
+    justify-content:center;
+}
+
+.HomeDonateMainTitle{
+    font-size:4rem;
+    color:white;
+    text-align:center;
+}
+
+.HomeDonateMainDesc{
+    font-size:1.2rem;
+    text-align: center;
+    color:#dddddd;
+    max-width:40%;
+}
+
+.HomeDonateMainBtnDiv{
+    margin-top:1rem;
+}
+
+.HomeDonateMainBtnDiv button{
+    border:none;
+    background:#00753d;
+    color:white;
+    border-radius:2rem;
+    padding:1rem 3rem;
+    font-size:1rem;
+    cursor:pointer;
+}
+
+
+@media screen and (max-width:1615px){
+    .HomeDonateMainDesc{
+        max-width:50%;
+    }
+}
+
+
+@media screen and (max-width:1394px){
+    .HomeDonateMainDesc{
+        max-width:60%;
+    }
+}
+
+
+@media screen and (max-width:1164px){
+    .HomeDonateMainDesc{
+        max-width:70%;
+    }
+}
+
+@media screen and (max-width: 943px) {
+    .HomeDonateMainDiv{
+        row-gap:0rem;
+    }
+    .HomeDonateMainTitle{
+        font-size:3.5rem;
+    }
+    .HomeDonateMainDesc{
+        font-size:1rem;
+        max-width:65%;
+    }
+    .HomeDonateMainBtnDiv{
+        margin-top:0.8rem;
+    }
+    
+    .HomeDonateMainBtnDiv button{
+        padding:0.6rem 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 790px) {
+    .HomeDonateMainTitle{
+        font-size:3rem;
+    }
+    .HomeDonateMainDesc{
+        max-width:74%;
+    }
+}
+
+@media screen and (max-width: 679px) {
+    .HomeDonateMainTitle{
+        font-size:2.5rem;
+    }
+    .HomeDonateMainDesc{
+        max-width:84%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .HomeDonateMainSec{
+        height:25rem;
+    }
+    .HomeDonateMainDesc{
+        max-width:90%;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .HomeDonateMainTitle{
+        font-size:2.4rem;
+    }
+    .HomeDonateMainDesc{
+        max-width:100%;
+    }
+}
+
+@media screen and (max-width: 547px) {
+    .HomeDonateMainTitle{
+        max-width:70%;
+    }
+}
+
+@media screen and (max-width: 541px) {
+    .HomeDonateMainTitle{
+        max-width:100%;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .HomeDonateMainTitle{
+        font-size:2.2rem;
+    }
+}
+
+@media screen and (max-width: 353px) {
+    .HomeDonateMainTitle{
+        font-size:2rem;
+    }
+    .HomeDonateMainDesc{
+        font-size:0.9rem;
+    }
+    
+}
+
+@media screen and (max-width: 270px) {
+    .HomeDonateMainTitle{
+        font-size:1.6rem;
+    }
+}

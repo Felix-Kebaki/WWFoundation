@@ -1,0 +1,104 @@
+.VolunteerFormMainSec{
+   width:100%;
+   padding:2rem 0rem 5rem 0rem;
+   background:white;
+}
+
+.VolunteerFormMainDiv{
+    width:85%;
+    margin:1rem auto 0rem;
+}
+
+.WhyJoinTitle{
+    color:#3EB489;
+    font-size:1rem;
+    text-align: center;
+}
+
+.IntroTitleInVolunteer{
+    font-size:2rem;
+    margin-top:0.7rem;
+    text-align:center;
+}
+
+.VolunteerDescAlot{
+    font-size:1.1rem;
+    margin-top:0.7rem;
+    text-align:center;
+}
+
+.FillInFormTitle{
+    font-size:1.4rem;
+    margin-top:2rem;
+}
+
+.VolunteerActualFormMainDiv{
+    margin-top:2rem;
+}
+
+.VolunteerActualFormMainDiv form{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    column-gap:1%;
+    row-gap:1rem;
+}
+
+.EachInputFieldDivVolunteer ,.SubmitBtnDivVolunteer{
+    width:32.6%;
+}
+
+.SubmitBtnDivVolunteer{
+    cursor:pointer;
+    background:#3EB489;
+    color:white;
+    border:none;
+}
+
+
+.EachInputFieldDivVolunteer input{
+    width:100%;
+    padding:1rem 0.5rem;
+    font-size:1rem;
+    outline: none;
+    border:0.1rem black solid;
+}
+
+.EachInputFieldDivVolunteer button{
+    width:100%;
+    font-size:1rem;
+}
+
+@media screen and (max-width: 1615px) {
+    .VolunteerFormMainSec{
+        padding:1.8rem 0rem 4rem 0rem;
+     }
+    .VolunteerFormMainDiv {
+      width: 98%;
+    }
+    .VolunteerDescAlot{
+        margin-top:0.6rem;
+    }
+  }
+  
+  @media screen and (max-width: 943px) {
+    .VolunteerFormMainSec{
+        padding:1rem 0rem 2rem 0rem;
+     }
+     .EachInputFieldDivVolunteer input{
+        padding:0.8rem 0.5rem;
+        font-size:0.9rem;
+    }
+  }
+
+  @media screen and (max-width: 575px) {
+    .VolunteerActualFormMainDiv form{
+        column-gap:1%;
+        row-gap:0.8rem;
+    }
+    
+    .EachInputFieldDivVolunteer ,.SubmitBtnDivVolunteer{
+        width:49.5%;
+    }
+    
+  }
