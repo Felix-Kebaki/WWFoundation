@@ -48,12 +48,28 @@
 }
 
 /* scroll to top */
-
-.ToTopDiv{
+.ToTopMainSec{
   position: fixed;
   bottom: 1rem;
   right: 1rem;
   z-index: 99999;
+  display:flex;
+  flex-direction:column;
+  row-gap:0.4rem;
+  align-items: center;
+  justify-content:center;
+}
+
+.WhatsAppIconLink{
+  text-decoration: none;
+}
+
+#WhatsAppIcon{
+  font-size:2rem;
+  color:#00753d;
+}
+
+.ToTopDiv{
   display: none;
 }
 
