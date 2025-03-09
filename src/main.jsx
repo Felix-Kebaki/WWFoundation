@@ -12,7 +12,7 @@ import { VolunteerPage } from "./pages/volunteerPage.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/WWFoundation/",
+    path: "/",
     element: <App />,
     children: [
       {
@@ -20,23 +20,23 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: "/WWFoundation/about",
+        path: "/about",
         element: <AboutPage />,
       },
       {
-        path: "/WWFoundation/contact",
+        path: "/contact",
         element: <ContactPage />,
       },
       {
-        path: "/WWFoundation/causes",
+        path: "/causes",
         element: <CausesPage />,
       },
       {
-        path:"/WWFoundation/donate",
+        path:"/donate",
         element:<DonatePage/>,
       },
       {
-        path:"/WWFoundation/volunteer",
+        path:"/volunteer",
         element:<VolunteerPage/>,
       }
     ],
