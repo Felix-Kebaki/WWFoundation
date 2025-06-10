@@ -11,10 +11,10 @@ import profile4 from "../../assets/images/profile4.png";
 export function Hero() {
   const navigate = useNavigate();
   const HandleVolunteerClick = () => {
-    navigate("/WWFoundation/volunteer");
+    navigate("/volunteer");
   };
   const HandleExploreClick = () => {
-    navigate("/WWFoundation/causes");
+    navigate("/causes");
   };
   return (
     <section className="HeroMainSec">

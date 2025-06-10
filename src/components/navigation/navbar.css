@@ -60,9 +60,20 @@
   border-radius: 1rem;
   font-size: 1.1rem;
   cursor: pointer;
-  border: none;
   font-weight: bolder;
   color: #00753d;
+}
+
+.BorderOnNav{
+  border:0.1rem green solid;
+}
+
+.NoBorderOnNav{
+  border:none;
+}
+
+.buttonCapsLockNav{
+  border:none;
 }
 
 .MenuIconDiv {

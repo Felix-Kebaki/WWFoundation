@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./navbar.css";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,9 +7,13 @@ import {faX} from '@fortawesome/free-solid-svg-icons'
 
 import Logo from "../../assets/images/WWF.png";
 
+import { useLocation } from "react-router-dom";
+
 export function Navbar() {
   const [navOpened,setNavOpened]=useState(true)
+  const [borderOnBtn,setBorderOnBtn]=useState(false)
   const navigate = useNavigate();
+  const location=useLocation()
 
 
   const HandleClickOnMenu=()=>{
@@ -36,8 +40,17 @@ export function Navbar() {
 
   const HandleToDonate=()=>{
     HandleClickLink();
-    navigate("/WWFoundation/donate")
+    navigate("/donate")
   }
+
+  useEffect(()=>{
+    if(location.pathname==="/donate"){
+      setBorderOnBtn(true)
+      return()=>{
+        setBorderOnBtn(false)
+      }
+    }
+  },[location.pathname])
   
   return (
     <section className="MainNavSec">
@@ -48,7 +61,7 @@ export function Navbar() {
         <div className="ContentOfNavDiv">
             <div className="AllNavLinksDiv">
               <NavLink
-                to="/WWFoundation/"
+                to="/"
                 className="EachLink medium"
                 activeclassname="active"
                 onClick={HandleClickLink}
@@ -56,7 +69,7 @@ export function Navbar() {
                 Home
               </NavLink>
               <NavLink
-                to="/WWFoundation/about"
+                to="/about"
                 className="EachLink medium"
                 activeclassname="active"
                 onClick={HandleClickLink}
@@ -64,7 +77,7 @@ export function Navbar() {
                 About
               </NavLink>
               <NavLink
-                to="/WWFoundation/causes"
+                to="/causes"
                 className="EachLink medium"
                 activeclassname="active"
                 onClick={HandleClickLink}
@@ -72,7 +85,7 @@ export function Navbar() {
                 Causes
               </NavLink>
               <NavLink
-                to="/WWFoundation/contact"
+                to="/contact"
                 className="EachLink medium"
                 activeclassname="active"
                 onClick={HandleClickLink}
@@ -81,7 +94,7 @@ export function Navbar() {
               </NavLink>
             </div>
           <div className="ButtonOnNavDiv">
-            <button onClick={HandleToDonate} className={navOpened?"italics":"buttonCapsLockNav medium"}>
+            <button onClick={HandleToDonate} className={navOpened && borderOnBtn?"BorderOnNav italics":navOpened && !borderOnBtn?"NoBorderOnNav italics":!navOpened?"buttonCapsLockNav medium":null}>
               Make Donation
             </button>
           </div>
