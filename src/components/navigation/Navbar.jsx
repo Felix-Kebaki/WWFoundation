@@ -40,7 +40,7 @@ export function Navbar() {
 
   const HandleToDonate=()=>{
     HandleClickLink();
-    navigate("/donate")
+    navigate("/WWFoundation/donate")
   }
 
   useEffect(()=>{
@@ -55,13 +55,13 @@ export function Navbar() {
   return (
     <section className="MainNavSec">
       <nav className="MainNavTag">
-        <Link to="/" className="NavLogoDiv">
+        <Link to="/WWFoundation" className="NavLogoDiv">
           <img src={Logo} alt="" />
         </Link>
         <div className="ContentOfNavDiv">
             <div className="AllNavLinksDiv">
               <NavLink
-                to="/"
+                to="/WWFoundation"
                 className="EachLink medium"
                 activeclassname="active"
                 onClick={HandleClickLink}
@@ -69,7 +69,7 @@ export function Navbar() {
                 Home
               </NavLink>
               <NavLink
-                to="/about"
+                to="/WWFoundation/about"
                 className="EachLink medium"
                 activeclassname="active"
                 onClick={HandleClickLink}
@@ -77,7 +77,7 @@ export function Navbar() {
                 About
               </NavLink>
               <NavLink
-                to="/causes"
+                to="/WWFoundation/causes"
                 className="EachLink medium"
                 activeclassname="active"
                 onClick={HandleClickLink}
@@ -85,7 +85,7 @@ export function Navbar() {
                 Causes
               </NavLink>
               <NavLink
-                to="/contact"
+                to="/WWFoundation/contact"
                 className="EachLink medium"
                 activeclassname="active"
                 onClick={HandleClickLink}

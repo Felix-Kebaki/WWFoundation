@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 export function Target() {
     const navigate=useNavigate()
     const HandleContactClick=()=>{
-        navigate("/contact")
+        navigate("/WWFoundation/contact")
     }
   return (
     <section className='TargetMainSec'>

@@ -9,7 +9,7 @@ import { allCauses } from "../../constants";
 export function AllCauses() {
   const navigate=useNavigate()
   const HandleContactClick=()=>{
-    navigate("/contact")
+    navigate("/WWFoundation/contact")
   }
   return (
     <section className="AllCausesMainSec">

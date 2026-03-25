@@ -11,7 +11,7 @@ import empower from "../../assets/images/empower.png";
 export function IntroAbout() {
   const navigate=useNavigate()
   const HandleDonateClick=()=>{
-    navigate("/donate")
+    navigate("/WWFoundation/donate")
   }
   return (
     <section className="IntroAboutMainSec">

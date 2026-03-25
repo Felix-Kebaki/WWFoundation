@@ -6,7 +6,7 @@ import BackgroundDonate from "../../assets/images/backgroundImg.jpg";
 export function HomeDonate() {
   const navigate=useNavigate()
   const HandleDonateClick=()=>{
-    navigate("/donate")
+    navigate("/WWFoundation/donate")
   }
   return (
     <section className="HomeDonateMainSec">

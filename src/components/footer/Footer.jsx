@@ -19,7 +19,7 @@ import Logo from "../../assets/images/WWF.png";
 export function Footer() {
   const navigate = useNavigate();
   const HandleJoinUs = () => {
-    navigate("/volunteer");
+    navigate("/WWFoundation/volunteer");
   };
   return (
     <section className="FooterMainSec">
@@ -50,19 +50,19 @@ export function Footer() {
           <div className="LinksAndContactInfoFooterDiv">
             <div className="QuickLinksDivOnly">
               <p className="medium">Quick links</p>
-              <Link to="/" className="regular" id="firstAtFooter">
+              <Link to="/WWFoundation" className="regular" id="firstAtFooter">
                 <FontAwesomeIcon icon={faAngleRight} id="ArrowIconFooter" />
                 Home
               </Link>
-              <Link to="/about" className="regular">
+              <Link to="/WWFoundation/about" className="regular">
                 <FontAwesomeIcon icon={faAngleRight} id="ArrowIconFooter" />
                 About
               </Link>
-              <Link to="/causes" className="regular">
+              <Link to="/WWFoundation/causes" className="regular">
                 <FontAwesomeIcon icon={faAngleRight} id="ArrowIconFooter" />
                 Causes
               </Link>
-              <Link to="/contact" className="regular">
+              <Link to="/WWFoundation/contact" className="regular">
                 <FontAwesomeIcon icon={faAngleRight} id="ArrowIconFooter" />
                 Contact
               </Link>

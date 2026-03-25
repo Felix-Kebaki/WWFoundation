@@ -10,7 +10,7 @@ export function CauseExplore() {
   const navigate=useNavigate();
 
   const HandleClickCauses=()=>{
-    navigate("/causes")
+    navigate("/WWFoundation/causes")
   }
   return (
     <section className="CauseExploreMainSec">
